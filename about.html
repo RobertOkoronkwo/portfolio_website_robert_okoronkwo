@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
-	<link href="img/robertoko_favicon_32x32.png" rel="shortcut icon">
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<meta name="author" content="Robert Okoronkwo">
+
+	<title>RobertOko - UX/UI Designer</title>
 	<meta name="description" content="RobertOko UX Design Portfolio">
-	<title>About - RobertOko</title>
+<link href="img/robertoko_favicon_32x32.png" rel="shortcut icon">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="author" content="Robert Okoronkwo">
+
 <!-- add your style.css file below that's in the css directory -->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,25 +16,30 @@
 <body>
 <!-- For the header -->
 <header>
-<!-- For the navigation -->
-      <div>
-        <a href="index.html">
-        <img src="img/robertoko_logo_150x50px.png" alt="RobertOko">
-				</a>
-          <nav>
-							<ul>
-			          <li><a href="index.html">Work</a></li>
-			          <li><a href="about.html">About</a></li>
-			          <li><a href="#Contact">Contact</a></li>
-			        </ul>
-          </nav>
-      </div>
-</header>
+	<!-- For the navigation -->
+	<a class="logo" href="index.html">
+		<img src="img/robertoko_logo.svg" alt="logo">
+	</a>
+	<nav>
+		<ul class="nav__links">
+		<li><a href="index.html">Work</a></li>
+		<li><a href="about.html">About</a></li>
+		<li><a class="button" href="#Contact">Contact</a></li>
+		</ul>
+	</nav>
+	<p class="menu cta">Menu</p>
+	</header>
+
+	</div>
+	</div>
+
 
 <!-- MAIN CONTENT -->
 <main>
 
 <!-- For the hero section -->
+<div id="hero">
+	<div class="container">
 <div>
 		<picture>
 		<source srcset="img/about/bobby_profile_picture_600x600px.png" media="(max-width:767px)">
@@ -41,8 +48,9 @@
 		<h1>
 		<span>About Robert</span>
 		</h1>
- </div>
-
+</div>
+</div>
+</div>
 <div>
     <p>
 		Hi, my name is Robert! You can learn more about my interests,
@@ -52,6 +60,8 @@
 
 
 <!-- My Story LEFT COLUMN -->
+<div id="mystory">
+	<div class="container">
 <div>
 		<h2>My Story</h2>
 		<p>
@@ -72,8 +82,12 @@
 			I like to work within inclusive teams to receive feedback from developers or stakeholders involved.
 		</p>
 </div>
+</div>
+</div>
 
 <!-- Skills and Tools RIGHT COLUMN -->
+<div id="skills">
+<div class="container">
 <div>
 		<h2>Skills and Tools</h2>
 		<h3>Relevant Skills</h3>
@@ -108,14 +122,27 @@
 		<li>Elementor</li>
 	  </ul>
 
-		<a href="img/about/robert_okoronkwo_ux_ui_resume.pdf" download>Download My Resume</a>
+
+<br>
+</div>
+</div>
 </div>
 
+<!-- DOWNLOAD MY RESUME  -->
+<div id="resume">
+	<div class="container">
+<div>
+<a class="button" href="img/about/robert_okoronkwo_ux_ui_resume.pdf" download>Download My Resume</a>
+</div>
+
+</div>
+</div>
+</div>
 
 </main>
 
 <!-- For the footer  -->
-<footer>
+<footer id="Contact">
 <div>
 		<h2>
 			<span>Let's Talk!</span>
@@ -125,7 +152,7 @@
 			bringing my ideas to your own project(s) or team.
 		</p>
 		<p>
-		<a href=" mailto:robertokoronkwo14@gmail.com">Contact</a>
+		<a class="button" href=" mailto:robertokoronkwo14@gmail.com">Contact</a>
 		</p>
 
 <!-- For Social Button Links  -->
