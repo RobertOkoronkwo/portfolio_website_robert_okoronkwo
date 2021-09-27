@@ -238,3 +238,9 @@ main {
 img {
   width: 100%;
 }
+
+
+
+.center-align {
+  text-align: center;
+}
