@@ -290,7 +290,7 @@ selector {
   float: right;
 }
 
-
+/*HERO HOMEPAGE*/
 #hero {
   padding: 200px 0;
   display: inline-block;
@@ -366,9 +366,177 @@ selector {
   width: 32px;
 }
 
-
+.profile-picture{
+  height: 100px;
+  width: 100px;
+}
 
 
 .float {
   float: right;
+}
+
+
+
+#Contact {
+  padding-top: 130px;
+  padding-bottom: 170px;
+  background-color: #221E42;
+}
+
+
+#Contact h2 {
+  color: white;
+  padding-bottom: 50px;
+}
+
+#Contact h5 {
+  color: white;
+}
+
+#Contact p {
+  color: white;
+}
+
+
+/*HERO-ABOUT*/
+
+#hero-about h1{
+  color: black;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+
+#hero-about p{
+  text-align: left;
+  padding-bottom: 50px;
+}
+
+
+/*MYSTORY*/
+
+#mystory h1{
+  color: black;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+#mystory p{
+  color: black;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+/*SKILLS*/
+
+#skills h2{
+  color: black;
+  padding-top: 50px;
+}
+
+#skills h3{
+  color: grey;
+  padding-bottom: 50px;
+}
+
+#skills p{
+  padding-bottom: 50px;
+}
+
+#skills ul{
+  padding-bottom: 50px;
+}
+
+/*RESUME*/
+
+#resume p{
+  padding-bottom: 100px;
+}
+
+
+
+/*PLUTOPAY*/
+
+#what-is h2{
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#what-is p{
+  text-align: center;
+}
+
+
+#myprocess h2{
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+#research h2{
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+#research p{
+  padding-bottom: 20px;
+}
+
+#ideation h2{
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+#ideation p{
+  padding-bottom: 20px;
+}
+
+#wireframes h2{
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+#wireframes p{
+  padding-bottom: 100px;
+}
+
+#designsection h2{
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+#designsection p{
+  padding-bottom: 80px;
+}
+
+#prototypesection h2{
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+#prototypesection p{
+  padding-bottom: 50px;
+}
+
+.casestudy-button{
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+#conclusion{
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+#conclusion p{
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 150px;
 }
