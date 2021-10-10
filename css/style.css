@@ -4,37 +4,48 @@
 
 }
 
-header {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  padding: 20px 90px;
-  background-color: #221E42;
-  width: 100%;
-  position: fixed;
-}
-
-.logo {
-  cursor: pointer;
-  margin-right: auto;
-}
 
 
 /* Layout styling */
 .container {
-  max-width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
 .logo {
-  max-width: 250px
+  max-width: 225px;
+  float: left;
 }
 
+
+header {
+  padding: 20px 0 13px;
+  background-color: #221E42;
+  width: 100%;
+  position: fixed;
+  text-align: unset;
+  align-items: center;
+}
+
+
+nav {
+  display: inline-block;
+  width: auto;
+  float: right;
+  margin-top: 4px;
+  align-items: center;
+}
+
+
 nav > ul > li > a {
+  display: inline-block;
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
   color: #edf0f1;
+  align-items: center;
   }
 
 .nav__links {
@@ -125,27 +136,6 @@ nav > ul > li > a {
   font-size: 60px;
   color: #edf0f1;
   cursor: pointer;
-}
-
-@media screen and (max-height: 450px) {
-  .overlay a {
-    font-size: 20px;
-  }
-  .overlay .close {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
-  }
-}
-
-@media only screen and (max-width: 800px) {
-  .nav__links,
-  .cta {
-    display: none;
-  }
-  .menu {
-    display: initial;
-  }
 }
 
 
@@ -255,6 +245,22 @@ img {
 }
 
 
+.plutopay-img {
+  width: 80%;
+  border-radius: 8%;
+}
+
+.learnhero-img {
+  width: 80%;
+  border-radius: 8%;
+}
+
+.bluenovadigital-img {
+  width: 80%;
+  border-radius: 8%;
+}
+
+
 
 .center-align {
   text-align: center;
@@ -267,7 +273,6 @@ img {
   top: 50%;
   transform: translateY(-50);
   text-align: center;
-
 }
 
 
@@ -297,7 +302,7 @@ selector {
   width: 100%;
   text-align: center;
   background-color: #683BFF;
-  margin-bottom: 230px;
+  margin-bottom: 150px;
 }
 
 #hero span {
@@ -333,7 +338,7 @@ selector {
 #work h2{
   color: black;
   padding-top: 0px;
-  padding-bottom: 90px;
+  padding-bottom: 150px;
   text-align: center;
 }
 
@@ -351,6 +356,21 @@ selector {
   padding-bottom: 20px;
   border-bottom: 1px
   solid #ffffff;
+}
+
+
+.container-plutopay {
+  width: 80%;
+}
+
+
+.container-learnhero {
+  width: 80%;
+}
+
+
+.container-bluenovadigital {
+  width: 80%;
 }
 
 
@@ -539,4 +559,104 @@ selector {
   text-align: center;
   padding-top: 80px;
   padding-bottom: 150px;
+}
+
+
+[class*="col-"] {
+  float: left;
+  padding-right: 40px;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+
+/*Medium devices*/
+@media only screen and (min-width: 640px) {
+  .col-md-6 {
+    width: 50%;
+  }
+
+  .col-md-7 {
+    width: 60%;
+  }
+
+  .col-md-5 {
+    width: 40%;
+  }
+
+  .col-md-4 {
+    width: 30%;
+  }
+
+  header {
+    text-align: unset;
+    padding: 20px 0 13px;
+  }
+
+
+  nav {
+    width: auto;
+    float: right;
+    margin-top: 4px;
+  }
+
+  nav>ul>li {
+    display: inline-block;
+    position: relative;
+  }
+
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
+
+  .navtoggle li:last-child {
+    display: none;
+  }
+}
+
+
+/*Large devices*/
+@media only screen and (min-width: 1024px) {
+  .col-lg-7 {
+    width: 45%;
+  }
+
+  .col-lg-5 {
+    width: 55%;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
+
+/*X-large devices*/
+@media only screen and (min-width: 1440px) {
+  .col-lg-7 {
+    width: 45%;
+  }
+
+  .col-lg-5 {
+    width: 55%;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .logo {
+    width: 250px;
+  }
 }
