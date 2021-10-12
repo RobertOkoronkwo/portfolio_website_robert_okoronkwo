@@ -575,8 +575,6 @@ selector {
 }
 
 
-
-
 /*Medium devices*/
 @media only screen and (min-width: 640px) {
   .col-md-6 {
