@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
  <head>
-  <title>RobertOko - UX/UI Designer</title>
+  <title>RobertOko - About</title>
   <meta name="description" content="RobertOko UX Design Portfolio">
   <link href="img/robertoko_favicon_32x32.png" rel="shortcut icon">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -10,50 +10,78 @@
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
  </head>
+
  <body>
   <!-- For the header -->
   <header>
-    <!-- For the navigation -->
-    <a class="logo" href="index.html"><img src="img/robertoko_logo.svg" alt="logo"></a>
-    <nav>
-      <ul class="nav__links">
-        <li>
-          <a href="index.html">Work</a>
-        </li>
-        <li>
-          <a href="about.html">About</a>
-        </li>
-        <li>
-          <a class="cta" href="#Contact">Contact</a>
-        </li>
-      </ul>
-    </nav>
-    <p class="menu cta">Menu</p>
-  </header><!-- MAIN CONTENT -->
+   <!-- For the navigation -->
+   <div class="container">
+   <a class="logo" href="index.html">
+    <img src="img/robertoko_logo.svg" alt="logo">
+   </a>
+   <nav>
+    <ul class="nav__links">
+     <li>
+      <a href="index.html">Work</a>
+     </li>
+     <li>
+      <a href="about.html">About</a>
+     </li>
+     <li>
+      <a class="cta" href="#Contact">Contact</a>
+     </li>
+    </ul>
+   </nav>
+   <p class="menu cta">Menu</p>
+ </div>
+  </header>
+
+
+  <!-- MAIN CONTENT -->
   <main>
     <!-- For the hero section -->
     <div id="hero-about">
       <div class="container">
-        <div>
+          <div class="row">
+          <div class="column col-md-6">
+          <div class="column-container-left">
           <picture>
             <source srcset="img/about/bobby_profile_picture_600x600px.png" media="(max-width:767px)">
-            <img src="img/about/bobby_profile_picture_1200x1200px.png" alt="Profile Picture">
+            <img src="img/about/bobby_profile_picture_1200x1200px.png" class="bobby-img" alt="Profile Picture">
           </picture>
-          <h1><span>About</span></h1>
-        </div>
-      </div>
-      <p>Hi, my name is Robert! You can learn more about my interests, background, and skills here.</p>
-    </div><!-- My Story LEFT COLUMN -->
+</div>
+</div>
+
+          <div class="column col-md-6">
+<div class="column-container-right">
+      <h1><span>About</span></h1>
+      <p>Hi, my name is Robert! You can learn more about my interests, background, and skills here.
+      </p>
+    </div>
+  </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+    <!-- My Story LEFT COLUMN -->
     <div id="mystory">
       <div class="container">
+        <div class="row">
+        <div class="column col-md-6">
+        <div class="column-container-left">
         <div>
+          <div class="mystory-heading">
           <h2>My Story</h2>
+        </div>
           <p>I started my career as a graphic designer, which allowed me to gain a great deal of experience giving value to clients building or rebranding their business. In regards to educational background, I have achieved a Masters in Business Analytics and Data Science, which has aided in my knowledge of data research, competitive analysis, system operations, and report metrics. Over the years, I realized my career passion aligned fully in UX/UI Design based on prior experience in visual design and analysis. Soon after receiving my Masters Degree (Dec 2020), I devoted the next 9-12 months in a UX Bootcamp. It took a considerable amount of time to complete, but my drive to learn and finish what I start pushed me through.</p>My attention to detail, meeting deadlines, and time management are my top quality traits. I like to work within inclusive teams to receive feedback from developers or stakeholders involved.
         </div>
       </div>
     </div><!-- Skills and Tools RIGHT COLUMN -->
     <div id="skills">
       <div class="container">
+        <div class="column col-md-6">
+        <div class="column-container-right">
         <div>
           <h2>Skills and Tools</h2>
           <h3>Relevant Skills</h3>
@@ -72,6 +100,8 @@
             <li>Prototyping</li>
             <li>User Testing</li>
           </ul>
+          </div>
+
           <h3>Tools I Use</h3>
           <ul>
             <li>Adobe XD</li>
@@ -85,19 +115,22 @@
             <li>Microsoft Excel</li>
             <li>Wordpress</li>
             <li>Elementor</li>
-          </ul><br>
+          </ul>
+
+        <!-- DOWNLOAD MY RESUME  -->
+              <div id="resume">
+              <div class="container">
+          <a class="button" href="img/about/robert_okoronkwo_ux_ui_resume.pdf" download="">Download My Resume</a>
+
         </div>
       </div>
-    </div><!-- DOWNLOAD MY RESUME  -->
-    <div id="resume">
-      <div class="container">
-        <div>
-          <p>
-          <a class="button" href="img/about/robert_okoronkwo_ux_ui_resume.pdf" download="">Download My Resume</a>
+    </div>
+
         </p>
       </div>
     </div>
   </div>
+</div>
   </main>
   <!-- For the footer  -->
   <footer id="Contact">
