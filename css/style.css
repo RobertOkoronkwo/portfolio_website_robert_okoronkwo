@@ -46,11 +46,18 @@ nav > ul > li > a {
   font-weight: 700;
   color: #edf0f1;
   align-items: center;
+  margin-left: 20px;
+  padding: 9px 25px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
   }
 
 .nav__links {
   list-style: none;
   display: flex;
+  margin-top: 7px;
 }
 
 .nav__links a,
@@ -245,22 +252,20 @@ img {
 }
 
 
+.img-radius {
+  border-radius: 8%;
+}
+
+
+.bobby-img {
+  border-radius: 100%;
+  width: 70%;
+}
+
+
 .plutopay-img {
-  width: 80%;
-  border-radius: 8%;
+  padding-top: 200px;
 }
-
-.learnhero-img {
-  width: 80%;
-  border-radius: 8%;
-}
-
-.bluenovadigital-img {
-  width: 80%;
-  border-radius: 8%;
-}
-
-
 
 .center-align {
   text-align: center;
@@ -392,6 +397,30 @@ selector {
 }
 
 
+
+.column-container-left {
+  width: 80%;
+}
+
+
+.column-container-right {
+  width: 80%;
+  margin-left: auto;
+}
+
+
+.column-paragraph-left {
+  width: 100%;
+}
+
+
+.column-paragraph-right {
+  width: 100%;
+  margin-left: auto;
+}
+
+
+
 .float {
   float: right;
 }
@@ -421,6 +450,12 @@ selector {
 
 /*HERO-ABOUT*/
 
+#hero-about {
+  padding-top: 200px;
+}
+
+
+
 #hero-about h1{
   color: black;
   padding-top: 50px;
@@ -437,10 +472,22 @@ selector {
 
 /*MYSTORY*/
 
+#mystory {
+  padding-top: 100px;
+}
+
 #mystory h1{
   color: black;
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+.mystory-heading {
+margin-top: 40px;
+}
+
+#mystory h2{
+margin-bottom: 10px;
 }
 
 
