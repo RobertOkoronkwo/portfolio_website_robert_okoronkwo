@@ -177,7 +177,7 @@ h3 {
   font-weight: 600;
 
 }
-}
+
 h4 {
   font-size: 1.35em;
   font-weight: 400;
@@ -305,7 +305,7 @@ img {
   width: 100%;
   position: absolute;
   top: 50%;
-  transform: translateY(-50);
+  transform: translateY(-50px);
   text-align: center;
 }
 
