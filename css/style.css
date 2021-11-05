@@ -95,7 +95,6 @@ nav > ul > li > a {
   background-color: #42BCFF;
 }
 
-
 /*HAMBURGER MENU*/
 
 .navtoggle li:not(:last-child) {
@@ -132,6 +131,7 @@ nav>ul>li>a:hover {
 .navtoggle.responsive li:last-child {
   padding: 0 0 10px;
 }
+
 
 /* Mobile Nav */
 
@@ -181,6 +181,12 @@ nav>ul>li>a:hover {
   font-size: 60px;
   color: #edf0f1;
   cursor: pointer;
+}
+
+
+#factory-img {
+  padding-right: 20px;
+  padding-left: 30px;
 }
 
 
@@ -288,6 +294,9 @@ main {
 img {
   width: 100%;
 }
+
+
+
 
 
 .parent {
@@ -679,7 +688,6 @@ margin-bottom: 10px;
 
 [class*="col-"] {
   float: left;
-  padding-right: 40px;
 }
 
 
