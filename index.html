@@ -12,6 +12,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://kit.fontawesome.com/42a81c6b20.js" crossorigin="anonymous"></script>
  </head>
 
  <body>
@@ -19,6 +20,7 @@
   <header>
 <!-- For the navigation -->
    <div class="container">
+   <div class="navtoggle" id="myNavtoggle">
    <a class="logo" href="index.html">
    <img src="img/robertoko_logo.svg" alt="logo">
    </a>
@@ -33,11 +35,17 @@
      <li>
       <a class="cta" href="#Contact">Contact</a>
      </li>
+     <li>
+       <a href="javascript:void(0);" class="icon" onclick="menuToggle()">
+       <i class="fas fa-bars"></i>
+     </a>
+   </li>
     </ul>
    </nav>
    <p class="menu cta">Menu</p>
+
  </div>
-  </header>
+</header>
 
 <!-- MAIN CONTENT -->
  <main>
@@ -162,6 +170,8 @@
    </div>
    </div>
   </footer>
+  <script src="js/jquery-3.6.0.min.js
+  "integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script src="js/scripts.js"></script>
  </body>
 </html>
