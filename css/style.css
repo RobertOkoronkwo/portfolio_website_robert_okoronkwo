@@ -38,6 +38,10 @@ nav {
   align-items: center;
 }
 
+.container {
+  padding: 0 20px;
+}
+
 
 nav > ul > li > a {
   display: inline-block;
@@ -441,6 +445,12 @@ selector {
 }
 
 
+.container {
+  padding: 20px;
+}
+
+
+
 .container-plutopay {
   width: 80%;
 }
@@ -698,8 +708,31 @@ margin-bottom: 10px;
 }
 
 
+/*Small devices*/
+@media only screen and (max-width: 320px) {
+
+.plutopay-project {
+  padding: center;
+}
+
+.navtoggle {
+  font-size: 10px;
+  }
+
+
+
+}
+
+
 /*Medium devices*/
 @media only screen and (min-width: 640px) {
+
+[class*="col-"] {
+    float: left;
+    padding-right: 40px;
+  }
+
+
   .col-md-6 {
     width: 50%;
   }
@@ -715,6 +748,7 @@ margin-bottom: 10px;
   .col-md-4 {
     width: 30%;
   }
+
 
   header {
     text-align: unset;
