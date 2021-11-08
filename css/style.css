@@ -465,6 +465,11 @@ selector {
   width: 80%;
 }
 
+.container-resume {
+  width: 100%;
+}
+
+
 
 .work {
   width: 80%;
@@ -484,16 +489,6 @@ selector {
 }
 
 
-
-.column-container-left {
-  width: 80%;
-}
-
-
-.column-container-right {
-  width: 80%;
-  margin-left: auto;
-}
 
 
 .column-paragraph-left {
@@ -726,6 +721,16 @@ margin-bottom: 10px;
 
 /*Medium devices*/
 @media only screen and (min-width: 640px) {
+
+  .column-container-left {
+    width: 80%;
+  }
+
+
+  .column-container-right {
+    width: 80%;
+    margin-left: auto;
+  }
 
 [class*="col-"] {
     float: left;
